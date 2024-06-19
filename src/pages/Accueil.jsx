@@ -1,9 +1,13 @@
 import checkmark from "/images/checkmark_icon.svg";
 import {Link} from "react-router-dom";
+import {Navbar} from "../components/Navbar.jsx";
 
 export const Accueil = () => {
     return (
         <>
+            <div className="absolute w-full z-50">
+                <Navbar/>
+            </div>
             <div>
                 <div>
                     <div className=" relative">
@@ -183,7 +187,8 @@ export const Accueil = () => {
                         <div id="ecoute" className="flex px-4">
                             <img className="size-1/3 p-2" src="/images/icon3.png" alt="Bandeau"/>
                             <div className="mx-2 px-4">
-                                <h3 className="font-montserrat text-2xl font-bold text-Black">A L'ÉCOUTE DE NOTRE<br/>CLIENTÈLE</h3>
+                                <h3 className="font-montserrat text-2xl font-bold text-Black">A L'ÉCOUTE DE NOTRE<br/>CLIENTÈLE
+                                </h3>
                                 <br/>
                                 <p className="font-open-sans text-xl ">Lorem ipsum dolor sit amet, consectetur
                                     adipisicing
@@ -195,7 +200,8 @@ export const Accueil = () => {
                         <div id="service" className="flex">
                             <img className="size-1/3 p-2" src="/images/icon4.png" alt="Bandeau"/>
                             <div className="mx-2 px-4">
-                                <h3 className="font-montserrat text-2xl font-bold text-Black">SERVICE &<br/>MAINTENANCE</h3>
+                                <h3 className="font-montserrat text-2xl font-bold text-Black">SERVICE &<br/>MAINTENANCE
+                                </h3>
                                 <br/>
                                 <p className="font-open-sans text-xl ">Lorem ipsum dolor sit amet, consectetur
                                     adipisicing
@@ -207,7 +213,8 @@ export const Accueil = () => {
                     </div>
                     <div>
                         <button className="py-24">
-                            <Link to="/contact" className="m-10 rounded bg-Blue px-10 py-6 font-montserrat text-2xl font-bold text-White">
+                            <Link to="/contact"
+                                  className="m-10 rounded bg-Blue px-10 py-6 font-montserrat text-2xl font-bold text-White">
                                 CONTACTEZ-NOUS
                             </Link>
                         </button>
@@ -217,7 +224,8 @@ export const Accueil = () => {
                     <div className="relative ">
                         <img className="w-full" src="/images/vehicule3.jpg" alt="Bandeau"/>
                         <div id="masque image" className="absolute bottom-0 h-44 w-full bg-Black"></div>
-                        <div className="absolute top-1/3 flex flex-col items-start justify-start bg-orange-400/80 max-w-3xl p-20 mx-80">
+                        <div
+                            className="absolute top-1/3 flex flex-col items-start justify-start bg-orange-400/80 max-w-3xl p-20 mx-80">
                             <h3 className="font-montserrat text-4xl font-bold text-Black">CLUB AUTO<br/><span
                                 className="text-White">VENTE ET LOCATION</span></h3><br/>
                             <p className="font-open-sans text-2xl text-Black ">Lorem ipsum dolor sit amet, consectetur

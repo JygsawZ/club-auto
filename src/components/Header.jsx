@@ -1,4 +1,3 @@
-import {Navbar} from "./Navbar.jsx";
 import facebook from "/images/facebook.svg";
 import twitter from "/images/x-twitter.svg";
 import {Routes, Route} from 'react-router-dom';
@@ -12,7 +11,7 @@ import {Location} from "../pages/Location.jsx";
 export const Header = () => {
     return (
         <>
-            <div className="flex flex-wrap items-start justify-around py-8 bg-Black">
+            <div className="flex flex-wrap items-start justify-around bg-Black py-8">
                 <h1 className="font-montserrat text-6xl font-bold text-White">CLUB AUTO</h1>
                 <div id="adresse" className="flex text-left  text-Brown">
                     <img className="size-12 " src="/images/icone-adresse.png" alt="Logo Adresse"/>
@@ -46,7 +45,6 @@ export const Header = () => {
                     <img className="size-10" src={twitter} alt="Twitter Logo"/>
                 </div>
             </div>
-            <Navbar/>
             <Routes>
                 <Route path="/" element={<Accueil/>}/>
                 <Route path="/vente" element={<Vente/>}/>
