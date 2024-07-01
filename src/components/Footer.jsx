@@ -1,3 +1,4 @@
+import React from "react";
 import facebookFooter from "/images/facebook_footer_icon.svg";
 import googleIcon from "/images/google+_footer_icon.svg";
 import instagram from "/images/instagram_footer_icon.svg";
@@ -6,7 +7,7 @@ import x_logo from "/images/x_logo_footer_icon.svg";
 
 export const Footer = () => {
     return (
-        <>
+        <React.Fragment>
             <div className="flex place-items-center justify-center bg-Black">
                 <div className="flex border-b border-gray-100  py-12">
                     <div id="descriptif" className="mr-14 max-w-96 text-left">
@@ -70,6 +71,6 @@ export const Footer = () => {
                     </p>
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }

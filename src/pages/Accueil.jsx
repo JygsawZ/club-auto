@@ -1,13 +1,10 @@
 import checkmark from "/images/checkmark_icon.svg";
 import {Link} from "react-router-dom";
-import {Navbar} from "../components/Navbar.jsx";
+import React from "react";
 
 export const Accueil = () => {
     return (
-        <>
-            <div className="absolute w-full z-50">
-                <Navbar/>
-            </div>
+        <React.Fragment>
             <div>
                 <div>
                     <div className=" relative">
@@ -236,6 +233,6 @@ export const Accueil = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
