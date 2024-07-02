@@ -1,6 +1,7 @@
 import React from "react";
 import facebook from "/images/facebook.svg";
 import twitter from "/images/x-twitter.svg";
+import hamburger from "/images/hamburger_menu_icon.svg";
 
 export const Header = () => {
     return (
@@ -37,6 +38,9 @@ export const Header = () => {
                 <div className="hidden lg:flex">
                     <img className="mr-4 size-10 " src={facebook} alt="Facebook Logo"/>
                     <img className="size-10" src={twitter} alt="Twitter Logo"/>
+                </div>
+                <div className="absolute p-5 right-0 top-0 lg:hidden">
+                    <img src={hamburger} className= "size-10"/>
                 </div>
             </div>
         </React.Fragment>

@@ -8,9 +8,9 @@ import x_logo from "/images/x_logo_footer_icon.svg";
 export const Footer = () => {
     return (
         <React.Fragment>
-            <div className="flex place-items-center justify-center bg-Black">
-                <div className="flex border-b border-gray-100  py-12">
-                    <div id="descriptif" className="mr-14 max-w-96 text-left">
+            <div className="flex justify-center bg-Black">
+                <div className="flex flex-col  lg:flex-row border-b border-gray-100  pb-8 lg:py-12">
+                    <div id="descriptif" className="pb-10 mr-14 max-w-96 text-left">
                         <h3 className=" font-montserrat text-2xl font-bold text-White"><span
                             className="text-Blue">CLUB </span> AUTO
                         </h3><br/>
@@ -22,7 +22,7 @@ export const Footer = () => {
                         </p>
                     </div>
                     <div id="horaire" className="mr-14 flex">
-                        <div className="text-left">
+                        <div className="pb-10 text-left">
                             <h3 className="font-montserrat text-2xl font-bold text-White">HORAIRE D'OUVERTURE</h3><br/>
                             <p className="font-open-sans text-xl text-Grey">Lundi - Samedi : <span
                                 className="text-White">09:00 - 17:00</span>
@@ -32,7 +32,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div id="newsletter" className="mr-14 flex">
-                        <div className="text-left">
+                        <div className="pb-10 text-left">
                             <h3 className="font-montserrat text-2xl font-bold text-White">NEWSLETTER</h3><br/>
                             <div className="relative">
                                 <label htmlFor="Search" className="sr-only"> Search </label>
