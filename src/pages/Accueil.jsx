@@ -20,7 +20,7 @@ export const Accueil = () => {
                 <div className="px-2 lg:px-24">
                     <div className="m-12 flex flex-col  lg:flex-row">
                         <div className="p-8 lg:w-1/2">
-                            <img className="" src="/images/clients.jpg" alt="Bandeau"/>
+                            <img src="/images/clients.jpg" alt="Bandeau"/>
                         </div>
                         <div className="p-8  lg:w-1/2">
                             <h2 className="font-montserrat text-4xl font-bold text-Black">BIENVENUE CHEZ <span
@@ -78,8 +78,8 @@ export const Accueil = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="p-8 lg:w-1/2">
-                            <img className="size-full" src="/images/entretien.jpg" alt="Bandeau"/>
+                        <div className="px-8 lg:w-1/2">
+                            <img className="lg:w-full" src="/images/entretien.jpg" alt="Bandeau"/>
                         </div>
                     </div>
                 </div>
