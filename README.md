@@ -2,7 +2,7 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-https://club-auto-dc7ce.firebaseapp.com/
+https://club-auto-dc7ce.web.app/
 
 Currently, two official plugins are available:
 
